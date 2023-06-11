@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header, footer{
+    background-color: pink;
+}
+
+.site-title{
+    color: aqua;
+}
+
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+#hobbies li{
+    list-style-type: square;
+}
+
+#hobbies li:nth-child(odd){
+    background-color: lightblue;
+}
+
+.nav ul li{
+    list-style-type: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    background-color: rgb(144, 235, 156);
+    border: 2px solid #3b3b3b;
+}
+
+.nav ul li a:hover{
+    text-decoration: none;
+    background-color: rgb(1, 200, 235);
+    border: 2px solid #000000;
+}
